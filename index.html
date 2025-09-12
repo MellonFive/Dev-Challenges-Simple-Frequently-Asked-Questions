@@ -13,56 +13,58 @@
 
     <title>Simple FAQ | devChallenges.io</title>
 
-    <link rel="stylesheet" href="src/css/variables.css" />
     <link rel="stylesheet" href="src/css/reset.css" /> 
+    <link rel="stylesheet" href="src/css/variables.css" />
+    <link rel="stylesheet" href="src/css/container.css" />
+    <link rel="stylesheet" href="src/css/header.css" />
 
   </head>
   <body>
     <main>
       <div class="container">
         <header>
-          <h1>Frequently Asked Questions</h1>
-          <h3>Browse through the most frequently asked questions</h3>
+          <h1 class="title">Frequently Asked Questions</h1>
+          <p class="description">Browse through the most frequently asked questions</p>
         </header>
 
-        <section>
-          <h2>How can I track my order?</h2>
-          <p>You can track your order using the following steps:</p>
+        <section class="order">
+          <h2 class="subtitle">How can I track my order?</h2>
+          <p class="description">You can track your order using the following steps:</p>
 
-          <ol>
-            <li>Go to the Order <a href="#">Tracking page.</a></li>
-            <li>Enter your order number and email address.</li>
-            <li>
+          <ol class="steps">
+            <li class="step">Go to the Order <a href="#">Tracking page.</a></li>
+            <li class="step">Enter your order number and email address.</li>
+            <li class="step">
               Click on the Track Order button to view the current status of your
               shipment.
             </li>
           </ol>
           
-          <p>If you encounter any issues, please visit our Help Center.</p>
+          <p class="description">If you encounter any issues, please visit our Help Center.</p>
         </section>
 
         <div class="border"></div>
 
-        <section>
-          <h2>What is your return policy?</h2>
-          <p>
+        <section class="policy">
+          <h2 class="subtitle">What is your return policy?</h2>
+          <p class="description">
             We offer a 30-day return policy on most items. Here are some key
             points:
           </p>
 
-          <ul>
-            <li>
-              <span>Items must be in original condition:</span> Unworn, unused, and unwashed.
+          <ul class="points">
+            <li class="point">
+              <span class="emphasis">Items must be in original condition:</span> Unworn, unused, and unwashed.
             </li>
-            <li>
-             <span>Include original packaging and tags:</span> All items should be returned with
+            <li class="point">
+             <span class="emphasis">Include original packaging and tags:</span> All items should be returned with
             their original packaging and tags.
             </li>
-            <li>
-              <span>Proof of purchase:</span> A receipt or proof of purchase is required.
+            <li class="point">
+              <span class="emphasis">Proof of purchase:</span> A receipt or proof of purchase is required.
             </li>
             
-            <p>For more detailed information, read our full Return Policy</p>
+            <p class="description">For more detailed information, read our full Return Policy</p>
         </section>
       </div>
     </main>
