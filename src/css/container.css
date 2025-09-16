@@ -1,5 +1,7 @@
 body {
     font-family: 'Inter', sans-serif;
 
-    padding: 10rem 0;
+    padding: 10rem 0 0;
+
+    text-align: center;
 }
