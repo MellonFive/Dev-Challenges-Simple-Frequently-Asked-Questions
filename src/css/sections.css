@@ -1,0 +1,17 @@
+section.order > .title, 
+section.policy > .title {
+    font-size: 3rem;
+}
+
+section.order > .description,
+section.policy > .description {
+    font-size: 1.8rem;
+
+    margin: 2rem 0;
+}
+
+section.order > .steps {
+    list-style: decimal inside;
+    
+    margin-left: 1.5rem;
+}
