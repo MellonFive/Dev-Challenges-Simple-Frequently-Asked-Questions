@@ -16,7 +16,18 @@ section.order > .steps {
     margin-left: 1.5rem;
 }
 
-section.order > .steps > .step {
+section.order > .steps > {
+
+}
+
+section.policy > .points {
+    list-style: disc inside;
+    
+    margin-left: 1.5rem;
+}
+
+section.order > .steps > .step, 
+section.policy > .points > .point {
     margin: 1rem 0;
     padding: 0.5rem;
 }
