@@ -10,24 +10,25 @@ section.policy > .description {
     margin: 2rem 0;
 }
 
+section.order > .steps > .step, 
+section.policy > .points > .point {
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
 section.order > .steps {
     list-style: decimal inside;
     
     margin-left: 1.5rem;
 }
 
-section.order > .steps > {
-
+section.order > .steps > .step > a {
+    font-weight: bold;
+    color: var(--blue);
 }
 
 section.policy > .points {
     list-style: disc inside;
     
     margin-left: 1.5rem;
-}
-
-section.order > .steps > .step, 
-section.policy > .points > .point {
-    margin: 1rem 0;
-    padding: 0.5rem;
 }
