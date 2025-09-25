@@ -19,7 +19,11 @@ section.policy > .points > .point {
 section.order > .steps {
     list-style: decimal inside;
     
-    margin-left: 1.5rem;
+    margin-left: .5rem;
+}
+
+section.order > .steps > .step {
+    line-height: 1.5rem;
 }
 
 section.order > .steps > .step > a {
