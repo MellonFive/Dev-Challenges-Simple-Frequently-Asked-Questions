@@ -26,8 +26,8 @@ section.order > .steps > .step {
     line-height: 1.5rem;
 }
 
-section.order > .steps > .step > a {
-    font-weight: bold;
+section.order > .steps > .step > a,
+section.order > .description > a {
     color: var(--blue);
 }
 
