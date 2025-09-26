@@ -37,13 +37,15 @@ section.order > .description.-last {
 section.order > .steps > .step > a,
 section.order > .description > a {
     color: var(--blue);
+    
     cursor: pointer;
 }
 
-section.order > .steps > .step > a,
+section.order > .steps > .step > a:hover,
 section.order > .description > a:hover {
-    color: var(--blue);
-    cursor: pointer;
+    transform: scale(1.5);
+    
+    text-decoration: underline;
 }
 
 section.policy > .points {
