@@ -1,3 +1,7 @@
+section.order {
+    border-bottom: 1px solid #000;
+}
+
 section.order > .title, 
 section.policy > .title {
     font-size: 3rem;
@@ -26,9 +30,20 @@ section.order > .steps > .step {
     line-height: 1.5rem;
 }
 
+section.order > .description.-last {
+    margin-bottom: 4rem;
+}
+
 section.order > .steps > .step > a,
 section.order > .description > a {
     color: var(--blue);
+    cursor: pointer;
+}
+
+section.order > .steps > .step > a,
+section.order > .description > a:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
 
 section.policy > .points {
