@@ -61,3 +61,29 @@ section.policy > .points {
 section.policy > .points > .point > .emphasis {
     font-weight: 600;
 }
+
+@media (max-width: 640px) {
+    section.order > .description,
+    section.policy > .description {
+        font-size: 1.7rem;
+    }
+
+    section.order > .title, 
+    section.policy > .title {
+        font-size: 2.5rem;
+    } 
+
+    section.order > .steps > .step {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+
+    section.policy > .points > .point {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+
+    section.policy > .description.-last {
+        margin: 3rem 0 4rem;
+    }
+}
