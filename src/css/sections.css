@@ -62,6 +62,23 @@ section.policy > .points > .point > .emphasis {
     font-weight: 600;
 }
 
+@media (max-width: 1024px) {
+    section.order > .title, 
+    section.policy > .title {
+        font-size: 3.2rem;
+    }
+
+    section.order > .description, 
+    section.policy > .description {
+        font-size: 1.9rem;
+    }
+
+    section.order > .steps > .step, 
+    section.policy > .points > .point {
+        font-size: 1.6rem;
+    }
+}
+
 @media (max-width: 640px) {
     section.order > .description,
     section.policy > .description {
@@ -88,19 +105,19 @@ section.policy > .points > .point > .emphasis {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 375px) {
+    section.order, 
+    section.policy {
+        padding: 0 1rem;
+    }
+
     section.order > .title, 
     section.policy > .title {
-        font-size: 3.2rem;
+        font-size: 2.2rem;
     }
 
     section.order > .description, 
     section.policy > .description {
-        font-size: 1.9rem;
-    }
-
-    section.order > .steps > .step, 
-    section.policy > .points > .point {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }

@@ -48,12 +48,13 @@ header > .subtitle {
 
 @media (max-width: 375px) {
     header > .title {
-        font-size: 2.3rem;
+        font-size: 2.6rem;
         padding: 1rem;
     }
 
     header > .subtitle {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        margin-top: 1rem;
     }
 }
