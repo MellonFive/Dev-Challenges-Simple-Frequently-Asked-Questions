@@ -22,6 +22,19 @@ header > .subtitle {
     font-size: 2.2rem;
 }
 
+/* É boas práticas colocar o maior max-width primeiro? */
+
+@media (max-width: 1024px) {
+    header > .title {
+        font-size: 6rem;
+    }
+
+    header > .subtitle {
+        font-size: 2.8rem;
+        margin-top: 3rem;
+    }
+}
+
 @media (max-width: 640px) {
     header > .title {
         text-align: center;
@@ -33,13 +46,14 @@ header > .subtitle {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 375px) {
     header > .title {
-        font-size: 6rem;
+        font-size: 2.3rem;
+        padding: 1rem;
     }
 
     header > .subtitle {
-        font-size: 2.8rem;
-        margin-top: 3rem;
+        text-align: center;
+        font-size: 1.2rem;
     }
 }
