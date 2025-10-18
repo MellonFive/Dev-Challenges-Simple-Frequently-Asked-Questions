@@ -19,3 +19,10 @@ body {
 
     margin: 4rem auto 0;
 }
+
+@media (max-width: 1024px) {
+    .container-section {
+        max-width: 85rem;
+        width: 100%;
+    }
+}

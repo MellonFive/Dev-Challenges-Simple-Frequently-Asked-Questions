@@ -87,3 +87,20 @@ section.policy > .points > .point > .emphasis {
         margin: 3rem 0 4rem;
     }
 }
+
+@media (max-width: 1024px) {
+    section.order > .title, 
+    section.policy > .title {
+        font-size: 3.2rem;
+    }
+
+    section.order > .description, 
+    section.policy > .description {
+        font-size: 1.9rem;
+    }
+
+    section.order > .steps > .step, 
+    section.policy > .points > .point {
+        font-size: 1.6rem;
+    }
+}
