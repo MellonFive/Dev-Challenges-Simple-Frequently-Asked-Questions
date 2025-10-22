@@ -113,11 +113,18 @@ section.policy > .points > .point > .emphasis {
 
     section.order > .title, 
     section.policy > .title {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     section.order > .description, 
     section.policy > .description {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        margin: 2rem 0;
+    }
+
+    section.order > .steps > .step, 
+    section.policy > .points > .point {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
     }
 }
