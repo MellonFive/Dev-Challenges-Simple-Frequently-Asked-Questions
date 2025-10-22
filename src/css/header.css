@@ -48,7 +48,7 @@ header > .subtitle {
 
 @media (max-width: 375px) {
     header > .title {
-        font-size: 2.6rem;
+        font-size: 1.8rem; 
         padding: 1rem;
     }
 
