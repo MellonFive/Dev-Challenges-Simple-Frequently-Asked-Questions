@@ -47,4 +47,4 @@ Percebi que tinha muita coisa em comum em vários pontos do site, então utilize
     }
 ```
 
-Aprendo a organizar a estrutura CSS para facilitar o código. Ter empatia na hora de programar, para um possível outro programador dar manutenção futuramente.
+Aprendendo a organizar a estrutura CSS para facilitar o código. Ter empatia na hora de programar, para um possível outro programador dar manutenção futuramente.
