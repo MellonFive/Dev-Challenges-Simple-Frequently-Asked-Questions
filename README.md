@@ -20,13 +20,13 @@
 Serve para colocar em prática conhecimentos em Front-End. 
 
 <p align="center">
-  <img alt="Dev-Challanges-Desktop" src="/.github/preview.gif" width="100%">
+  <img alt="Dev-Challanges-Desktop" src=".github/Preview.gif" width="100%">
 </p>
 
 ## 📱 Mobile
 
 <p align="center">
-  <img alt="Dev-Challanges-Mobile" src="/.github/Preview-mobile.gif" width="100%">
+  <img alt="Dev-Challanges-Mobile" src=".github/Preview-mobile.gif" width="100%">
 </p>
 
 <div align="center">
