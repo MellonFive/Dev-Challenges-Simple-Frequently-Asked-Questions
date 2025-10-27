@@ -26,10 +26,6 @@ section.order > .steps {
     margin-left: .5rem;
 }
 
-/* section.order > .steps > .step:nth-child(3) {
-    background-color: red;
-} */
-
 section.order > .steps > .step {
     line-height: 1.5rem;
 }
